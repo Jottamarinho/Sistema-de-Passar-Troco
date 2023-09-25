@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;900&display=swap" rel="stylesheet">
+    <title>Sistema de Passar Troco</title>
+</head>
+
+<body>
+    <div class="troco-container">
+        <h1>Sistema de Passar Troco</h1>
+        <div class="form-group">
+            <label for="total">Valor do Produto:</label>
+            <input type="number" id="total" placeholder="Adicione o Valor do Produto">
+        </div>
+
+        <div class="form-group">
+            <label for="pago">Valor Pago:</label>
+            <input type="number" id="pago" placeholder="Valor Pago pelo Cliente">
+        </div>
+        
+        <button class="calcular-button" onclick="calcularTroco()">Calcular Troco</button>
+        <div class="troco" id="troco"></div>
+    </div>
+
+    <div class="direitos">
+        <h2>First version 1.0.0, developer Jotta Marinho </h2>
+    </div>
+
+    <script>
+    function calcularTroco() {
+            const valorPago = parseFloat(document.getElementById('pago').value);
+            const totalCompra = parseFloat(document.getElementById('total').value);
+            const troco = valorPago - totalCompra;
+
+            if (troco >= 0) {
+                document.getElementById('troco').textContent = `Troco: R$ ${troco.toFixed(2)}`;
+            } else {
+                document.getElementById('troco').textContent = 'Valor insuficiente.';
+            }
+        }
+    </script>
+
