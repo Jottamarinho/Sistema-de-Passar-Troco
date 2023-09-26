@@ -1,14 +1,12 @@
 @media screen and (max-width: 600px){
     body{
         margin-top: 60%;
-        overflow: hidden;
     }
     label {
         
         margin: 10px auto;
         font-weight: lighter;
         color:rgb(255, 255, 255);
-
         display: block;
     }
     input[type="number"] {
