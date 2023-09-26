@@ -1,0 +1,61 @@
+@media screen and (max-width: 600px){
+    body{
+        margin-top: 60%;
+        overflow: hidden;
+    }
+    label {
+        
+        margin: 10px auto;
+        font-weight: lighter;
+        color:rgb(255, 255, 255);
+
+        display: block;
+    }
+    input[type="number"] {
+        border-radius: 15px;
+        background-color: #363636;
+        width: 70%;
+        padding: 5px;
+    }
+
+    .calcular-button {
+        font-weight: bold;
+        margin-left: 13%;
+        width: 50%;
+        padding: 10px;
+        border-radius: 40px;
+        background-color: #ae00ff;
+        color: #ffffff;
+        border: none;
+        cursor: pointer;
+    }
+
+    h1 {
+        color: #ae00ff;
+        margin-left: 0%;
+        width: 75%;
+        font-size: 20px;
+        font-weight: 400px;
+    }
+
+
+    .troco {
+        font-weight: bold;
+        margin-left: 0%;
+        width: 75%;
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+
+    .direitos h2{
+        margin-top: 50%;
+        font-size: 50%;
+        margin-left: 15%;
+        width: 75%;
+        font-weight: lighter;
+        text-align: center;
+        
+    }
+    
+}
