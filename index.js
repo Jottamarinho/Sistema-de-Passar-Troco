@@ -1,3 +1,6 @@
+alert('Use com moderação, Atenciosamente Jotta Marinho!')
+
+
 function calcularTroco() {
     const valorPago = parseFloat(document.getElementById('pago').value);
     const totalCompra = parseFloat(document.getElementById('total').value);
