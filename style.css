@@ -1,0 +1,87 @@
+*{  
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+    
+}
+.troco-container {
+    display: block;
+    width: 400px;
+    margin: 16% auto;
+}
+h1 {
+    color: #ae00ff;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900px;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+label {
+    margin: 10px auto;
+    font-weight: lighter;
+    color:rgb(255, 255, 255);
+    text-align: left;
+    display: block;
+}
+input[type="number"] {
+
+    border-radius: 15px;
+    background-color: #363636;
+    width: 100%;
+    padding: 5px;
+}
+
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button {
+     -webkit-appearance: none;
+      margin: 0;
+}
+
+
+.calcular-button {
+    font-weight: bold;
+    display: block;
+    width: 80%;
+    padding: 10px;
+    border-radius: 40px;
+    background-color: #ae00ff;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+ 
+}
+
+.calcular-button:hover{
+background-color: #ffffff;
+color: #ae00ff;
+}
+
+
+.troco {
+    font-weight: bold;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+footer{
+
+    font-weight: lighter;
+    text-align: center;
+    background-color: #ae00ff;
+    padding: 2%;
+}
+
+
+h8{
+    background: none;
+}
+
