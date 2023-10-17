@@ -80,6 +80,7 @@
         text-align: center;
         background-color: #ae00ff;
         padding: 10%;
+        justify-content: baseline;
     }
     
 }
